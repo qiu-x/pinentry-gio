@@ -4,6 +4,12 @@ A small Linux GPG pinentry written in Go and [Gio](https://gioui.org).
 It speaks the [Assuan pinentry protocol](https://www.gnupg.org/documentation/manuals/pinentry/)
 directly over stdin/stdout; it does not require libassuan.
 
+## Screenshots
+
+| Dark theme | Light theme |
+| --- | --- |
+| ![Pinentry dialog in dark mode](doc/screenshots/dark.png) | ![Pinentry dialog in light mode](doc/screenshots/light.png) |
+
 ## Build and preview
 
 Requires Go 1.24 or newer, a C compiler, pkg-config, and Gio's Linux development
