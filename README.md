@@ -1,7 +1,7 @@
 # pinentry-gio
 
 A small Linux GPG pinentry written in Go and [Gio](https://gioui.org).
-It speaks the [Assuan pinentry protocol](https://www.gnupg.org/documentation/manuals/pinentry/)
+It speaks the [Assuan pinentry protocol](https://www.gnupg.org/documentation/manuals/assuan/)
 directly over stdin/stdout; it does not require libassuan.
 
 ## Screenshots
